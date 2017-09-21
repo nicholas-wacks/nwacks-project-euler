@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>f5339380-8ae0-45f1-8fc0-05941401b794</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>interest calc.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Euler</Name>
+    <RootNamespace>Euler</RootNamespace>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
+    <InterpreterVersion>3.4</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Complete\Problem1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem13.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem14.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem15.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem16.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem17.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem19.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem20.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem25.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem28.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem33.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem42.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem51.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem67.py" />
+    <Compile Include="Complete\Problem18.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem9.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem21.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem22.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem23.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem24.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem26.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem27.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem30.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem31.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem32.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem34.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem35.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem36.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem37.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem38.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem39.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem40.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem41.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem43.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem44.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem45.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem46.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem47.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem48.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem49.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem50.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem52.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem53.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem54.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem 55.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem56.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem 57.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem58.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem59.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem60.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem61.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem62.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem63.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem 92.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem125.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem102.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="interest calc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem145.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem151.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem179.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem243.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem64.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem65.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem587.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem66.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem69.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem81.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem71.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem74.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem72.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem73.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem79.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem80.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem82.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem97.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem99.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem89.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem90.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem91.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem93.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Complete\Problem98.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Complete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.4" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
