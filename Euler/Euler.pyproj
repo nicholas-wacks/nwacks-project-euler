@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f5339380-8ae0-45f1-8fc0-05941401b794</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>interest calc.py</StartupFile>
+    <StartupFile>Problem76.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -223,9 +223,6 @@
     <Compile Include="Complete\Problem102.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="interest calc.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Problem145.py">
       <SubType>Code</SubType>
     </Compile>
@@ -265,7 +262,7 @@
     <Compile Include="Problem72.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Problem73.py">
+    <Compile Include="Problem76.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Problem79.py">
