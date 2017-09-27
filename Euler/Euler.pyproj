@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f5339380-8ae0-45f1-8fc0-05941401b794</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Complete\Problem205.py</StartupFile>
+    <StartupFile>Problem381.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -13,7 +13,7 @@
     <Name>Euler</Name>
     <RootNamespace>Euler</RootNamespace>
     <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
-    <InterpreterVersion>3.4</InterpreterVersion>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -253,6 +253,9 @@
     <Compile Include="Complete\Problem587.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Problem381.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Problem549.py">
       <SubType>Code</SubType>
     </Compile>
@@ -313,6 +316,13 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.4" />
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="..\..\..\..\..\AppData\Local\Programs\Python\Python35\Lib\site-packages\primesieve\_primesieve.cp35-win_amd64.pyd">
+      <Name>_primesieve.cp35-win_amd64.pyd</Name>
+      <PythonExtension>..\..\..\..\..\AppData\Local\Programs\Python\Python35\Lib\site-packages\primesieve\_primesieve.cp35-win_amd64.pyd</PythonExtension>
+    </Reference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
