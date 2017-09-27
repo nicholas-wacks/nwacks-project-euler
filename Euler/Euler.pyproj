@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f5339380-8ae0-45f1-8fc0-05941401b794</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Problem206.py</StartupFile>
+    <StartupFile>Problem549.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -235,7 +235,10 @@
     <Compile Include="Problem179.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Problem206.py">
+    <Compile Include="Complete\Problem206.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem205.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Problem243.py">
@@ -248,6 +251,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Complete\Problem587.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem549.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Problem66.py">
