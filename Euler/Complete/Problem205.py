@@ -20,6 +20,9 @@ for c1 in range(1, 7):
                         else:
                             colinProbabilities[roll] = 1
 
+cTotalRolls = sum(colinProbabilities.values())
+for c in colinProbabilities.keys():
+    colinProbabilities[c] /= cTotalRolls
 
 for p1 in range(1, 5):
     for p2 in range(1, 5):
@@ -36,15 +39,15 @@ for p1 in range(1, 5):
                                     else:
                                         peterProbabilities[roll] = 1
 
-totalRolls = 0
-peteWins = 0
+pTotalRolls = sum(peterProbabilities.values())
+for p in peterProbabilities.keys():
+    peterProbabilities[p] /= pTotalRolls
+
+peteWinRate = 0
 
 for p in peterProbabilities.keys():
     for c in colinProbabilities.keys():
-        roundRolls = peterProbabilities[p] * colinProbabilities[c]
-        totalRolls += roundRolls
-
         if (p > c):
-            peteWins += roundRolls
+            peteWinRate += peterProbabilities[p] * colinProbabilities[c]
 
-print (str(peteWins) + "/" + str(totalRolls) + ": " + str(peteWins / totalRolls))
+print (peteWinRate)
